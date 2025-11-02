@@ -3,12 +3,12 @@
 ## 구현할 기능 목록 
 구현할 기능 목록
 
-- [ ] MVC 패키지 구조 설정 (`controller`, `domain`, `view`)
+- [x] MVC 패키지 구조 설정 (`controller`, `domain`, `view`)
 
 
 - [ ] 로또 구입 금액 입력 기능 구현
-  - [ ] 안내 문구 출력 ("구입금액을 입력해 주세요.")
-  - [ ] `Console.readLine()`으로 구입 금액 입력받기 
+  - [x] 안내 문구 출력 ("구입금액을 입력해 주세요.")
+  - [x] `Console.readLine()`으로 구입 금액 입력받기 
   - [ ] 입력값이 비어있거나 공백일 경우 `IllegalArgumentException` 
   - [ ] 숫자가 아닐 경우 `IllegalArgumentException` 
   - [ ] 1000원으로 나누어 떨어지지 않을 경우 `IllegalArgumentException`
@@ -25,12 +25,12 @@
     - [ ] 1~45 범위를 벗어난 숫자가 있을 경우 `IllegalArgumentException`
     - [ ] 중복된 숫자가 있을 경우 `IllegalArgumentException`
     - [ ] 생성 시 로또 번호 오름차순 정렬
-  - [ ] 구매 수량 출력("n개를 구매했습니다.")
+  - [x] 구매 수량 출력("n개를 구매했습니다.")
   - [ ] 발행된 로또 번호 목록을 오름차순으로 정렬하여 출력
 
 
 - [ ] 당첨 번호 입력 기능 구현
-  - [ ] 안내 문구 출력 ("당첨 번호를 입력해 주세요.")
+  - [x] 안내 문구 출력 ("당첨 번호를 입력해 주세요.")
   - [ ] `Console.readLine()`으로 `쉼표(,)`로 구분된 당첨 번호 6개 입력받기
   - [ ] 6개가 아닐 경우 `IllegalArgumentException`
   - [ ] 1~45 범위를 벗어난 숫자가 있을 경우 `IllegalArgumentException`
@@ -40,8 +40,8 @@
 
 
 - [ ] 보너스 번호 입력 기능 구현
-  - [ ] 안내 문구 출력 ("보너스 번호를 입력해 주세요.")
-  - [ ] `Console.readLine()`으로 보너스 번호 1개 입력받기
+  - [x] 안내 문구 출력 ("보너스 번호를 입력해 주세요.")
+  - [x] `Console.readLine()`으로 보너스 번호 1개 입력받기
   - [ ] 숫자가 아닌 경우 `IllegalArgumentException`
   - [ ] 1~45 범위를 벗어난 숫자인 경우 `IllegalArgumentException`
   - [ ] 보너스 번호가 당첨 번호와 중복되는 경우 `IllegalArgumentException`
