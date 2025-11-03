@@ -1,11 +1,9 @@
 package lotto.domain;
 
-
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 public class Lotto {
     // 로또 번호의 숫자 범위는 1~45까지

@@ -1,7 +1,6 @@
 package lotto.domain;
 
 import java.text.NumberFormat;
-import java.util.Arrays;
 
 public enum LottoRank {
     FIRST(6, 2000000000, false, "6개 일치 (%s원) - %d개"),
