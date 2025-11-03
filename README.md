@@ -61,10 +61,10 @@
   - [x] 총 수익률 출력 ("총 수익률은 62.5%입니다.")
 
 
-- [ ] 테스트 코드 작성하기
-  - [ ] `Lotto` 테스트 코드 작성하기
-  - [ ] `Money` 테스트 코드 작성하기
-  - [ ] `WinningLotto` 테스트 코드 작성하기
-  - [ ] `LottoRank` 테스트 코드 작성하기
-  - [ ] `LottoResult` 테스트 코드 작성하기
-  - [ ] `InputValidator` 테스트 코드 작성하기
+- [x] 테스트 코드 작성하기
+  - [x] `Lotto` 테스트 코드 작성하기
+  - [x] `Money` 테스트 코드 작성하기
+  - [x] `WinningLotto` 테스트 코드 작성하기
+  - [x] `LottoRank` 테스트 코드 작성하기
+  - [x] `LottoResult` 테스트 코드 작성하기
+  - [x] `InputValidator` 테스트 코드 작성하기
