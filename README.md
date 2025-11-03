@@ -1,7 +1,6 @@
 # java-lotto-precourse
 
-## 구현할 기능 목록 
-구현할 기능 목록
+## 구현할 기능 목록
 
 - [x] MVC 패키지 구조 설정 (`controller`, `domain`, `view`)
 
