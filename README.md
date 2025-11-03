@@ -11,20 +11,20 @@
   - [x] `Console.readLine()`으로 구입 금액 입력받기 
   - [ ] 입력값이 비어있거나 공백일 경우 `IllegalArgumentException` 
   - [ ] 숫자가 아닐 경우 `IllegalArgumentException` 
-  - [ ] 1000원으로 나누어 떨어지지 않을 경우 `IllegalArgumentException`
-  - [ ] 구입 금액을 Money 객체로 나타내기
-    - [ ] 1000원 미만일 경우 `IllegalArgumentException`
-    - [ ] 로또 몇 개 구매했는지 계산하기
+  - [x] 1000원으로 나누어 떨어지지 않을 경우 `IllegalArgumentException`
+  - [x] 구입 금액을 Money 객체로 나타내기
+    - [x] 1000원 미만일 경우 `IllegalArgumentException`
+    - [x] 로또 몇 개 구매했는지 계산하기
 
 
 - [ ] 로또 발행 및 출력 기능 구현
   - [ ] `LottoGenerator`에서 로또 생성
   - [ ] `LottoMachine`에서 구매 수량만큼 로또 발행 
-  - [ ] `Lotto` 구현하기
-    - [ ] 6개가 아닌 경우 `IllegalArgumentException` 
-    - [ ] 1~45 범위를 벗어난 숫자가 있을 경우 `IllegalArgumentException`
-    - [ ] 중복된 숫자가 있을 경우 `IllegalArgumentException`
-    - [ ] 생성 시 로또 번호 오름차순 정렬
+  - [x] `Lotto` 구현하기
+    - [x] 6개가 아닌 경우 `IllegalArgumentException` 
+    - [x] 1~45 범위를 벗어난 숫자가 있을 경우 `IllegalArgumentException`
+    - [x] 중복된 숫자가 있을 경우 `IllegalArgumentException`
+    - [x] 생성 시 로또 번호 오름차순 정렬
   - [x] 구매 수량 출력("n개를 구매했습니다.")
   - [ ] 발행된 로또 번호 목록을 오름차순으로 정렬하여 출력
 
