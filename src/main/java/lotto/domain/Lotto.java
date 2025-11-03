@@ -1,9 +1,11 @@
 package lotto.domain;
 
+
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class Lotto {
     // 로또 번호의 숫자 범위는 1~45까지
@@ -29,6 +31,8 @@ public class Lotto {
         if (numbers.size() != LOTTO_NUMBER_COUNT) {
             throw new IllegalArgumentException("[ERROR] 로또 번호는 " + LOTTO_NUMBER_COUNT + "개여야 합니다.");
         }
+        validateDuplicates(numbers);
+        validateRange(numbers);
     }
 
     /**
